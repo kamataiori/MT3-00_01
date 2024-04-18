@@ -37,7 +37,7 @@ float Dot(const Vector3& v1, const Vector3& v2)
 {
 	float DotResult{};
 
-	DotResult = (v1.x + v2.x) + (v1.y + v2.y) + (v1.z + v2.z);
+	DotResult = (v1.x * v2.x) + (v1.y * v2.y) + (v1.z * v2.z);
 
 	return DotResult;
 }
